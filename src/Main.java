@@ -1,12 +1,15 @@
 import javax.swing.*;
-import login.login;
+
+import telas.telaLogin;
 
 public class Main {
 	public static void main(String[]args) {
-		login loginInterface = new login();
+		telaLogin loginInterface = new telaLogin();
 		
 		loginInterface.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		loginInterface.setVisible(true);
+		
+		
 	}
 }
